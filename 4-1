@@ -1,0 +1,46 @@
+namespace week;
+
+class Program
+{
+    static void main(string[] args)
+
+    {
+        Console.WriteLine("Hello, World!");
+        // the curency rate we need to change
+
+        int currency1 = 0, value = 0;
+        double rate = 0;
+
+        // the currency change from Yen, Euro, and Peso to US Dallors. 
+        switch (currency1)
+        {
+            case 1:
+                Console.WriteLine("Enter the amount in US Dollar: ");
+
+                rate = value * 107.83;
+                double cout = value " US Dallar" = rate = "Yen";
+                break;
+
+
+            case 2:
+                Console.WriteLine("Enter the amount in US Dollar: ");
+
+                rate = value * 0.91;
+                double cout = value " US Dallar" = rate = "Euro";
+                break;
+
+            case 3:
+                Console.WriteLine("Enter the amount in US Dollar: ");
+
+                rate = value * 19.51;
+                double cout = value " US Dallar" = rate = "Peso";
+                break;
+
+        }
+
+
+    }
+
+    }
+}
+
